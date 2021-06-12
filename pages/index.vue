@@ -5,8 +5,17 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
-    name:'IndexPage'
+    name:'IndexPage',
+    async asyncData(){
+        const {data} = await axios({
+            method:'GET',
+            url:'http://localhost:3000/data.json'
+        })
+        console.log(data)
+        return data
+    }
 }
 </script>
 
