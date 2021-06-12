@@ -1,0 +1,25 @@
+{
+  "name": "ssr-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "nuxt": "^2.15.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15025639392/study-ssr-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/15025639392/study-ssr-vue/issues"
+  },
+  "homepage": "https://github.com/15025639392/study-ssr-vue#readme"
+}
